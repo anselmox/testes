@@ -1,0 +1,91 @@
+@import url('http://fonts.cdnfonts.com/css/rawline');
+
+body {
+    color: #111;
+    font-family: 'Rawline',Arial, Helvetica, sans-serif;   
+      font-size:18px;
+      letter-spacing:-1px;
+      margin: 0 auto;
+    line-height:20px;
+  /* font-weight:lighter; */
+    
+  }
+  html, body {
+   
+    height: 100%;
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;  
+  }
+  section, article, div, nav, footer, aside, header {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  header{
+      display:flex;
+      border:1px solid #067;
+     
+  }
+  footer{display:flex;flex:1;border-top:1px dotted #000;margin:20px 0px;}
+  nav{flex: 1 1;border:1px solid #000; }
+img {max-width: 100%;display: block;}
+  .flex {
+    display: flex;
+   /* flex-wrap: wrap;*/
+    max-width: 90%;
+    margin: 0 auto;
+    border: #093 1px solid;
+  }
+  .linha90{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+    border:1px dotted #900;
+  }
+  .linha1200{  display: flex;    flex-direction: row;  flex-wrap: wrap; max-width: 1200px; margin: 0 auto;justify-content: space-between;}
+  .logo{width:150px;background-color: #ccc;margin: 5px 7px 5px 0px ;}
+
+  .mt30{margin-top:30px;}
+  .mtb30{margin:30px 0px;}
+  .p10{padding:10px;}
+  .fundo-e{background-color: #eee;color:#111;}
+  .fundo-cinza{background-color: #ccc;color:#000;}
+  .border{ border:1px solid #900;}
+  .borderb{ border:1px dotted #333;}
+  .borderc{ border:1px dotted #067;}
+
+  .item30{width: 20%;}
+  .item70{width: 78%;}
+
+  .rowa {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 30px;
+ 
+  }
+  
+  .rowa > .item100 {
+    flex: 1 1 ;
+   border: 0px solid #333;
+   
+  }
+
+  .rowa > .item25 {
+    flex: 1 1 250px;
+   border: 1px dotted #f60;
+   background-color: #e2e2e2; 
+   margin:5px 5px 5px 0px;
+   
+  }
+
+  @media all and (max-width: 1000px){
+    .rowa,   .linha90 , .linha1200{padding:0px 20px;}
+    
+   nav, .item30, .item70{ width: 100%;}
+  }
+
