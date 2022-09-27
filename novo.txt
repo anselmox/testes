@@ -2,3 +2,5 @@ novo aquivo
 outro
 alterado
 ok
+alterado novamente
+ok
